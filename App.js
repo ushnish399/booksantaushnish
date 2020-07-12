@@ -4,6 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import WelcomeScreen from './screens/WelcomeScreen';
 import {AppTabNavigator} from './components/TabNavigator';
 import {createSwitchNavigator, createAppContainer} from 'react-navigation';
+import {AppDrawNavigator} from './components/AppDrawNavigator';
 
 export default function App() {
   return (
@@ -15,8 +16,8 @@ const SwitchNavigator=createSwitchNavigator({
   WelcomeScreen:{
     screen:WelcomeScreen,
   },
-  BottomTab:{
-    screen:AppTabNavigator,
+  Drawer:{
+    screen:AppDrawNavigator
   }
 })
 const AppContainer=createAppContainer(SwitchNavigator);
