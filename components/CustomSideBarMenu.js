@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {View, StyleSheet, Text, Flatlist, TouchableOpacity} from 'react-native';
 import firebase from 'firebase';
-import {DrawerItems} from 'react-native-drawer';
+import {DrawerItems} from 'react-navigation-drawer';
 
 export default class CustomsideBarMenu extends Component{
 
