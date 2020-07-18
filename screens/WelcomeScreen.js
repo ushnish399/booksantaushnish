@@ -131,10 +131,10 @@ button:{width:300, height:50, justifyContent:'center', alignItems:'center', bord
 buttonText:{color:'white', fontWeight:'200', fontSize:20},
 buttonContainer:{flex:1, alignItems:'center', justifyContent:'center'},
 keyBoardAvoidingView:{flex:1, justifyContent:'center', alignItems:'center'},
-modalTitle:{justifyContent:'center', alignSelf:'center', fontsize:30, color:'black', margin:50},
-modalContainer:{flex:1, borderRadius:20, justifyContent:'center', alignItem:'center', backgroundColor:'white', marginRight:30, marginLeft:30, marginTop:80, marginBottom:80},
+modalTitle:{justifyContent:'center', alignSelf:'center', fontSize:30, color:'black', margin:50},
+modalContainer:{flex:1, borderRadius:20, justifyContent:'center', alignItems:'center', backgroundColor:'white', marginRight:30, marginLeft:30, marginTop:80, marginBottom:80},
 formTextInput:{width:'75%', height:35, alignSelf:'center', borderColor:'black', borderRadius:10, borderWidth:1, marginTop:20, padding:10},
-registeredButton:{width:200, height:40, alignItems:'center', justufyContent:'center', borderWidth:1, borderRadius:10, marginTop:30},
+registeredButton:{width:200, height:40, alignItems:'center', justifyContent:'center', borderWidth:1, borderRadius:10, marginTop:30},
 registerButtonText:{color:'black', fontSize:15, fontWeight:'bold'},
 cancelButton:{width:200, height:30, justifyContent:'center', alignItems:'center', marginTop:5},
 
